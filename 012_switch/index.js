@@ -117,11 +117,10 @@ separator();
  * This usage is more declarative and therefore (generally) less error-prone than using a switch/case.
  *
  * And since we start with a clean definition of our domain modal (instead of a if/else or a switch chain),
- * It is easier to test too.
- *
- * To verify its functionality you only have to test `( foo )[ key ] || printRedBackground` gives `foo.key`
- * for matching keys, and `printRedBackground` for unmatched keys.
- * You don’t even have to mock the print methods.
+ * it is easier to test too:
+ *     To verify its functionality you only have to test `( foo )[ key ] || printRedBackground` gives `foo.key`
+ *     for matching keys, and `printRedBackground` for unmatched keys.
+ *     You don’t even have to mock the print methods.
  *
  * Replacing a switch/case with a hashmap (or a more compex object tree) goes by many names:
  *
