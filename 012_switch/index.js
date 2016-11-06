@@ -32,7 +32,7 @@ const color = 'red';
 
 {
     if ( color === 'black' ) {
-        printBlackBackground()
+        printBlackBackground();
     } else if ( color === 'blue' ) {
         printBlueBackground();
     } else if ( color === 'green' ) {
