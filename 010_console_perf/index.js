@@ -30,7 +30,6 @@ for ( let i = 0; i < len; i++ ) {
     arr[ i ] = {a:{b:{c:{d:{e:{f:{g: true}}}}}}};
 }
 
-
 console.timeEnd( 'Array initialization' );
 
 separator();
