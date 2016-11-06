@@ -26,7 +26,7 @@ check( !!'' === false, 'Converted empty string to boolean.' );
 check( !!0 === false, 'Converte zero to boolean.' );
 check( !!null === false, 'Converted `null`. to boolean.' );
 check( !!undefined === false, 'Converted `undefined` to boolean.' );
-check( !!NaN === false, 'Converted `NaN` to boolean..' );
+check( !!NaN === false, 'Converted `NaN` to boolean.' );
 check( !!'hello' === true,  'Converted a non-empty string to boolean.' );
 check( !!1 === true, 'Converted a non-zero number to boolean.' );
 check( !!{} === true, 'Converted an object to boolean.' );
