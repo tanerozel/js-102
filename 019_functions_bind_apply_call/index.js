@@ -73,7 +73,7 @@ log( Array.apply( null, { length: 10 } ).map( Number.call, Number ) );
 separator();
 
 /*
- * Lessons to Learn
+ * ## Lessons to Learn
  *
  * `bind`, `call`, and `apply` help you do “reflection” in JavaScript.
  *
