@@ -259,7 +259,6 @@ separator();
                             ( _, key ) => reducers[ key ]( accumulator, current ),
                             {}
                         )
-
             )( {
                 totalInDollars: ( accumulator, current ) => {
                     accumulator.dollars += current.price * 0.89;
