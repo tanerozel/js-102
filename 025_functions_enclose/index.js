@@ -18,32 +18,27 @@
 
 const util = require( '../lib/util' );
 const separator = util.separator;
-const log = console.log;
+const check = util.check;
 
 separator();
 
-(function() {
-    log( 'Hello from an IIFE.' );
-}());
+const counter = ( () => {
+    let i = 0;
 
-{
-    log( 'A block level code is the same as an IIFE.' );
-}
+    return {
+        get: () => i,
+        set: ( val ) => i = val,
+        increment: () => i++
+    }
+})();
 
-{
-    const number = ( () => 10 )();
+check( counter.get() === 0, 'counter is initially zero.' );
 
-    log( `The number is “${number}”.` );
-}
+counter.set( 3 );
+counter.increment();
+counter.increment();
+
+check( counter.get() === 5, 'counter is five.' );
+check( counter.i === undefined, '`counter.i` is not defined.' );
 
 separator();
-
-/*
- * ## Lessons to Learn
- *
- * Instead of IIFEs, prefer using modules and block-level scoping with `const` and `let`.
- *
- * Prefer using CommonJS (i.e. Node.JS-style) for your code; you can always use
- * tools like webpack, grunt, browserify, gulp… etc. to bundle them into a code that
- * the browser can understand.
- */

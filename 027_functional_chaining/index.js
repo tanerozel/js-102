@@ -20,30 +20,28 @@ const util = require( '../lib/util' );
 const separator = util.separator;
 const log = console.log;
 
-separator();
+// The most popular libary that’s known for chaining is “jQuery”.
 
-(function() {
-    log( 'Hello from an IIFE.' );
-}());
+class Person {
+    constructor( name ) { this.name = name; }
 
-{
-    log( 'A block level code is the same as an IIFE.' );
+    sayName() {
+        log( `Hello, my name is ${this.name}.` );
+
+        return this;
+    }
+
+    changeName( newName ) {
+        this.name = newName;
+
+        return this;
+    }
 }
 
-{
-    const number = ( () => 10 )();
-
-    log( `The number is “${number}”.` );
-}
-
 separator();
 
-/*
- * ## Lessons to Learn
- *
- * Instead of IIFEs, prefer using modules and block-level scoping with `const` and `let`.
- *
- * Prefer using CommonJS (i.e. Node.JS-style) for your code; you can always use
- * tools like webpack, grunt, browserify, gulp… etc. to bundle them into a code that
- * the browser can understand.
- */
+const person = new Person( 'John' );
+
+person.sayName().changeName( 'Anthony' ).sayName();
+
+separator();

@@ -16,34 +16,18 @@
  * Send your comments, suggestions, and feedback to me@volkan.io
  */
 
-const util = require( '../lib/util' );
-const separator = util.separator;
 const log = console.log;
 
-separator();
+function Tool() {
+    this.isTool = true;
 
-(function() {
-    log( 'Hello from an IIFE.' );
-}());
-
-{
-    log( 'A block level code is the same as an IIFE.' );
+    this.memberFunction = function() {
+        log( '(Tool t).memberFunction: log from member.' );
+    }
 }
 
-{
-    const number = ( () => 10 )();
+Tool.prototype.protoFunction = function() {
+    log( 'Tool.prototype.protoFunction: log from proto.' );
+};
 
-    log( `The number is “${number}”.` );
-}
-
-separator();
-
-/*
- * ## Lessons to Learn
- *
- * Instead of IIFEs, prefer using modules and block-level scoping with `const` and `let`.
- *
- * Prefer using CommonJS (i.e. Node.JS-style) for your code; you can always use
- * tools like webpack, grunt, browserify, gulp… etc. to bundle them into a code that
- * the browser can understand.
- */
+module.exports = Tool;

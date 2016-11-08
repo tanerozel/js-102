@@ -16,34 +16,22 @@
  * Send your comments, suggestions, and feedback to me@volkan.io
  */
 
-const util = require( '../lib/util' );
-const separator = util.separator;
 const log = console.log;
 
-separator();
+const Tool = require ( './tool' );
 
-(function() {
-    log( 'Hello from an IIFE.' );
-}());
+function Nail( length ) { this.length = length; }
 
-{
-    log( 'A block level code is the same as an IIFE.' );
-}
+Nail.prototype = new Tool();
 
-{
-    const number = ( () => 10 )();
+Nail.prototype.toString = function() { return `${this.length} Nail`; };
 
-    log( `The number is “${number}”.` );
-}
+Nail.prototype.protoFunction = function() {
+    log( 'Nail.prototype.protoFunction: Nail has overridden the proto function.' );
+};
 
-separator();
+Nail.prototype.memberFunction = function() {
+    log( 'Nail.prototype.memberFunction: Nail has overridden the member function as proto function.' );
+};
 
-/*
- * ## Lessons to Learn
- *
- * Instead of IIFEs, prefer using modules and block-level scoping with `const` and `let`.
- *
- * Prefer using CommonJS (i.e. Node.JS-style) for your code; you can always use
- * tools like webpack, grunt, browserify, gulp… etc. to bundle them into a code that
- * the browser can understand.
- */
+module.exports = Nail;

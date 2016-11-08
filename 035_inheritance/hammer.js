@@ -16,34 +16,18 @@
  * Send your comments, suggestions, and feedback to me@volkan.io
  */
 
-const util = require( '../lib/util' );
-const separator = util.separator;
 const log = console.log;
 
-separator();
+const Tool = require( './tool' );
 
-(function() {
-    log( 'Hello from an IIFE.' );
-}());
-
-{
-    log( 'A block level code is the same as an IIFE.' );
+function Hammer( type ) {
+    this.type = type;
 }
 
-{
-    const number = ( () => 10 )();
+Hammer.prototype = new Tool();
 
-    log( `The number is “${number}”.` );
-}
+Hammer.prototype.hit = function( count, nail ) {
+    log( `A ${this.type}hammer is hittin ${nail}s, ${count} times!` );
+};
 
-separator();
-
-/*
- * ## Lessons to Learn
- *
- * Instead of IIFEs, prefer using modules and block-level scoping with `const` and `let`.
- *
- * Prefer using CommonJS (i.e. Node.JS-style) for your code; you can always use
- * tools like webpack, grunt, browserify, gulp… etc. to bundle them into a code that
- * the browser can understand.
- */
+module.exports = Hammer;
