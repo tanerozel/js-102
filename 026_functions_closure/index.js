@@ -53,6 +53,7 @@ check();
 const phaseTwo = () => {
     let counter = 0;
 
+    // Loops of the form for (let x…) create a fresh binding for x in each iteration.
     for ( let i = 0; i < 10; i++ ) {
         setTimeout( () => {
             log( i );
