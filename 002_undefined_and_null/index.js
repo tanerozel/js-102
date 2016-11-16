@@ -20,19 +20,17 @@ const util = require( '../lib/util' );
 const check = util.check;
 const separator = util.separator;
 
-/*
- * `undefined` means that a variable has not been yet declared,
- * or has been declared but has not been assigned a value.
- *
- * `null` is an assignment value that means “no value”.
- *
- * Unassigned variables default to `undefined` in JavaScript.
- * There is NO mechanism in JavaScript that sets things to `null` by default;
- * so if there is a `null` value, then someone or some process should have
- * explicitly set it that way.
- *
- * Additionally, `undefined` is NOT a valid JSON value whereas `null` is.
- */
+// `undefined` means that a variable has not been yet declared,
+// or has been declared but has not been assigned a value.
+//
+// `null` is an assignment value that means “no value”.
+//
+// Unassigned variables default to `undefined` in JavaScript.
+// There is NO mechanism in JavaScript that sets things to `null` by default;
+// so if there is a `null` value, then someone or some process should have
+// explicitly set it that way.
+//
+// Additionally, `undefined` is NOT a valid JSON value whereas `null` is.
 
 separator();
 

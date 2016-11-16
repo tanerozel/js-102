@@ -16,14 +16,13 @@
  * Send your comments, suggestions, and feedback to me@volkan.io
  */
 
-/*
- * The module loader API is work-in-progress as of 2016.
- *
- * If you are using webpack, using `require.ensure` is the webpack
- * way of achieving the same thing.
- *
- * Other frameworks and bundlers have their own implementations too.
- */
+// The module loader API is work-in-progress as of 2016.
+//
+// If you are using webpack, using `require.ensure` is the webpack
+// way of achieving the same thing.
+//
+// Other frameworks and bundlers have their own implementations too.
+
 System.import( '../lib/util' ).then( ( module ) => {
     module.check( true, 'true' );
 } );

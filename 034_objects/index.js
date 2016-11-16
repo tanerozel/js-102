@@ -88,12 +88,10 @@ separator();
 
 separator();
 
-/*
- * ## Lessons to Learn
- *
- * * Destructuring is the best thing since sliced bread; use it.
- *
- * * The second best thing is the spread operator. Show some love to it.
- *
- * * Using computed properties (in moderation) can improve your code’s readability.
- */
+// ## Lessons to Learn
+//
+// * Destructuring is the best thing since sliced bread; use it.
+//
+// * The second best thing is the spread operator. Show some love to it.
+//
+// * Using computed properties (in moderation) can improve your code’s readability.

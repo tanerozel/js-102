@@ -36,15 +36,13 @@ log( `x: “${x}”.` );
 
 separator();
 
-/*
- * ## Lessons to Learn
- *
- * Comma expressions are generally a sign over “overly-clever” code
- * which could have been written in a simpler way.
- *
- * When possible always prefer simplicity. The person reading the
- * code six months later will thank you.
- * And “that” person could very well be you, too.
- *
- * Bottom line: Avoid comma expressions whenever possible.
- */
+// ## Lessons to Learn
+//
+// Comma expressions are generally a sign over “overly-clever” code
+// which could have been written in a simpler way.
+//
+// When possible always prefer simplicity. The person reading the
+// code six months later will thank you.
+// And “that” person could very well be you, too.
+//
+// Bottom line: Avoid comma expressions whenever possible.

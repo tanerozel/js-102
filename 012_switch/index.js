@@ -111,42 +111,38 @@ separator();
     } )[ color ] || printRedBackground )();
 }
 
-/*
- * WRT the above example:
- *
- * This usage is more declarative and therefore (generally) less error-prone than using a switch/case.
- *
- * And since we start with a clean definition of our domain modal (instead of a if/else or a switch chain),
- * it is easier to test too:
- *     To verify its functionality you only have to test `( foo )[ key ] || printRedBackground` gives `foo.key`
- *     for matching keys, and `printRedBackground` for unmatched keys.
- *     You don’t even have to mock the print methods.
- *
- * Replacing a switch/case with a hashmap (or a more compex object tree) goes by many names:
- *
- * * Inversion of Control
- *   (instead of switchin on the color to do stuff, we are taking a mapping of delegates
- *   and passing a color constant to locate the correct delegate to do stuff.
- *   This is like using a factory function. Hence we are inverting the flow of things;
- *   hence the name “inversion of control”.
- *
- * * Replacing Conditionals With Polymorphism
- *   We replace what apperas to be an if/else (or a switch/case) chain with subclasses of an
- *   object that override the same function as in…
- *
- *      `IPrinter printer = PrinterFactory.createBlackPrinter(); printer.print();`
- *
- *   Since JavaScript is NOT Java, we are NOT doing that level of abstraction of course.
- *
- *   Why? Because in JavaScript functions are first-class citizens. You don’t have to stick
- *   a function to an owner object, and thus you don’t need a factory method, or a set of
- *   objects which implement the same interface and shadow a print method polymorphically
- *   to just to call that said print function.
- *
- *   The functional nature of JavaScript allows more succinct (sometimes dangerously so) code.
- *
- *   To my knowledge, IoC was first coined in “Refactoring: Improving the Design of Existing Code”
- *   by Martin Fowler (et. al.).
- */
+// This usage is more declarative and therefore (generally) less error-prone than using a switch/case.
+//
+// And since we start with a clean definition of our domain modal (instead of a if/else or a switch chain),
+// it is easier to test too:
+//     To verify its functionality you only have to test `( foo )[ key ] || printRedBackground` gives `foo.key`
+//     for matching keys, and `printRedBackground` for unmatched keys.
+//     You don’t even have to mock the print methods.
+//
+// Replacing a switch/case with a hashmap (or a more compex object tree) goes by many names:
+//
+// * Inversion of Control
+//   (instead of switchin on the color to do stuff, we are taking a mapping of delegates
+//   and passing a color constant to locate the correct delegate to do stuff.
+//   This is like using a factory function. Hence we are inverting the flow of things;
+//   hence the name “inversion of control”.
+//
+// * Replacing Conditionals With Polymorphism
+//   We replace what apperas to be an if/else (or a switch/case) chain with subclasses of an
+//   object that override the same function as in…
+//
+//      `IPrinter printer = PrinterFactory.createBlackPrinter(); printer.print();`
+//
+//   Since JavaScript is NOT Java, we are NOT doing that level of abstraction of course.
+//
+//   Why? Because in JavaScript functions are first-class citizens. You don’t have to stick
+//   a function to an owner object, and thus you don’t need a factory method, or a set of
+//   objects which implement the same interface and shadow a print method polymorphically
+//   to just to call that said print function.
+//
+//   The functional nature of JavaScript allows more succinct (sometimes dangerously so) code.
+//
+//   To my knowledge, IoC was first coined in “Refactoring: Improving the Design of Existing Code”
+//   by Martin Fowler (et. al.).
 
 separator();

@@ -30,12 +30,15 @@ const Hammer = require( './hammer' );
 const Nail = require( './nail' );
 
 
-/*
- * This is kind-of equivalent to
- * 1. run the constructor function `Hammer`.
- * 2. And exec `hammer.__proto__ = Hammer.prototype`
+/**
+ * This is kind-of equivalent to…
+ *
+ *      1. run the constructor function `Hammer`.
+ *      2. And exec `hammer.__proto__ = Hammer.prototype`
+ *
+ * It logs “A sledgehammer is hitting Nine Inch Nails, 10 times!”.
  */
-const hammer = new Hammer( 'sledge' ); // Logs “A sledgehammer is hittin Nine Inch Nails, 10 times!”.
+const hammer = new Hammer( 'sledge' );
 
 const nail = new Nail( 'Nine Inch' );
 
@@ -165,21 +168,19 @@ log( anotherHash );
 
 separator();
 
-/*
- * ## Lessons to Learn
- *
- * First things first: JavaScript is NOT Java.
- *
- * Although inheritance looks cool from the outside, there are much better
- * constructs in JavaScript that you can replace with inheritance.
- *
- * Consider using “modules” and “composition” instead of “classes” and “inheritance”.
- *
- * That is, prefer functional composition over inheritance whenever you can.
- *
- * This does not mean inheritance is useless. It is just don’t try to put a classical inheritance
- * model on top of a runtime that is designed for prototypal inheritance.
- *
- * When you find yourself thinking in object hierarchies and subclasses, think again and
- * more often than not you can come up with a simpler solution that uses functional composition.
- */
+// ## Lessons to Learn
+//
+// First things first: JavaScript is NOT Java.
+//
+// Although inheritance looks cool from the outside, there are much better
+// constructs in JavaScript that you can replace with inheritance.
+//
+// Consider using “modules” and “composition” instead of “classes” and “inheritance”.
+//
+// That is, prefer functional composition over inheritance whenever you can.
+//
+// This does not mean inheritance is useless. It is just don’t try to put a classical inheritance
+// model on top of a runtime that is designed for prototypal inheritance.
+//
+// When you find yourself thinking in object hierarchies and subclasses, think again and
+// more often than not you can come up with a simpler solution that uses functional composition.

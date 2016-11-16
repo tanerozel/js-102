@@ -60,15 +60,13 @@ test();
 
 separator();
 
-/*
- * ## Lessons to Learn
- *
- * * Always use `const`.
- *
- * * In rare occasions you “may” neeed to use `let`;
- *   at least think twice before you do that.
- *   Most of the time it’s you mutating something you should not,
- *   and you can create an alternate solution using `const`.
- *
- * * NEVER use `var`.
- */
+// ## Lessons to Learn
+//
+// * Always use `const`.
+//
+// * In rare occasions you “may” neeed to use `let`;
+//   at least think twice before you do that.
+//   Most of the time it’s you mutating something you should not,
+//   and you can create an alternate solution using `const`.
+//
+// * NEVER use `var`.

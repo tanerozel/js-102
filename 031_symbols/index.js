@@ -29,15 +29,11 @@ separator();
 
 check( sym2 !== sym3, '`Symbol` is a factory function.' );
 
-/*
- * The most practical use of symbols are the `for … of` interface of iterables.
- *
- * `Array`, `TypedArray`, `String`, `Map`, and `Set` all implement that iterable interface.
- */
+// The most practical use of symbols are the `for … of` interface of iterables.
+//
+// `Array`, `TypedArray`, `String`, `Map`, and `Set` all implement that iterable interface.
 
-/*
- * Let’s continue with two interview-like examples:
- */
+// Let’s continue with two interview-like examples:
 
 separator();
 

@@ -58,13 +58,11 @@ check( String.raw `foo\n${ 42 }bar` === 'foo\\n42bar', '`String.raw` displays ra
 
 separator();
 
-/*
- * ## Lessons to Learn
- *
- * Do not trust implicit type conversion (i.e. coercion).
- * Always use correct types for your date.
- * Related to that: Always sanitize your data.
- *
- * Template strings are NOT XSS-immune, you still need to properly escape
- * and sanitize your data (and/or use a framework that does that for you).
- */
+// ## Lessons to Learn
+//
+// Do not trust implicit type conversion (i.e. coercion).
+// Always use correct types for your date.
+// Related to that: Always sanitize your data.
+//
+// Template strings are NOT XSS-immune, you still need to properly escape
+// and sanitize your data (and/or use a framework that does that for you).

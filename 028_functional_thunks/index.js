@@ -76,22 +76,19 @@ logThunk(
 
 separator();
 
-/*
- * Without additional wrapping the thunk does not prove much value in of itself.
- * You, however, can give your thunk some “context” by using a higher-order function.
- * The higher-order function will turn the thunk into “cached computations” to
- * be executed at a later point in time.
- */
+// Without additional wrapping the thunk does not prove much value in of itself.
+// You, however, can give your thunk some “context” by using a higher-order function.
+// The higher-order function will turn the thunk into “cached computations” to
+// be executed at a later point in time.
 
 const createMeaningOfLifeThunk = ( theMeaning ) => {
     const error = theMeaning !== 42;
 
-    /*
-     * Now we are returning a thunk, which locks in whatever we have in the scope
-     * when we called the `createMeaningOfLifeThunk` function.
-     *
-     * Note that we we return is technically a “closure” too.
-     */
+    // Now we are returning a thunk, which locks in whatever we have in the scope
+    // when we called the `createMeaningOfLifeThunk` function.
+    //
+    // Note that we we return is technically a “closure” too.
+
     return ( nodeback ) => {
         log( `The meaning of life, the universe, and everything is “${theMeaning}”.`);
 

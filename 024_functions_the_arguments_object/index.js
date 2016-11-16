@@ -24,12 +24,10 @@ separator();
 
 function test( a, b, c ) {
 
-    /*
-     * Note: The `arguments` object is being used less and less
-     * in lieu of its better alternative “rest parameters” (i.e., `...args`).
-     * Indeed, `arguments` won’t work as expected inside a fat arrow since
-     * it will be bound to the outer lexical scope.
-     */
+    // Note: The `arguments` object is being used less and less
+    // in lieu of its better alternative “rest parameters” (i.e., `...args`).
+    // Indeed, `arguments` won’t work as expected inside a fat arrow since
+    // it will be bound to the outer lexical scope.
 
     log( arguments.length );
 }

@@ -236,20 +236,19 @@ separator();
     log();
 
 
-    /*
-     * Note: The example below is deliberately made more complicated than it ought to be.
-     * Normally, you should split this expression into smaller functions and compose
-     * them together.
-     *
-     * Looking at a functional expression is similar to looking at a mathematical formula:
-     * You cannot “see” it all at once; you’ll have to slowly ingest it; you’ll need to
-     * tear it into pieces, analyze and understand each piece separately to form an
-     * accurate mental model of how things tie together.
-     *
-     * When you need to think in higher levels of abstractions, it’s inevitable that you’ll
-     * need to slow down. — And fear not, slowing down is a good thing; it will, indeed,
-     * make you far more expressive and productive!
-     */
+    // Note: The example below is deliberately made more complicated than it ought to be.
+    // Normally, you should split this expression into smaller functions and compose
+    // them together.
+    //
+    // Looking at a functional expression is similar to looking at a mathematical formula:
+    // You cannot “see” it all at once; you’ll have to slowly ingest it; you’ll need to
+    // tear it into pieces, analyze and understand each piece separately to form an
+    // accurate mental model of how things tie together.
+    //
+    // When you need to think in higher levels of abstractions, it’s inevitable that you’ll
+    // need to slow down. — And fear not, slowing down is a good thing; it will, indeed,
+    // make you far more expressive and productive!
+
     log(
         items.reduce(
             (
@@ -288,24 +287,22 @@ separator();
 
 separator();
 
-/*
- * ## Lessons to Learn
- *
- * * Thinking functionally requires you to “slow down”.
- *
- * * Just because JavaScript is “composable” does not mean you should be composing
- *   everything and the kitchen sink into a humongous chain of expressions.
- *   Splitting your code into smaller sets of expressions and functions, and then composing them
- *   together as a larger expression will promote readability.
- *
- * * `reduce` is a powerful tool: You can do any kind of filtering and iteration with reduce.
- *   Again, there is a difference between “you can” and “you should” ;)
- *
- * * Show love to Array’s collection methods: `map`, `reduce`, `for … of`, and `forEach`.
- *   Whenver you are using a regular `for` loop, more often than not, you can do the same
- *   thing with one of these collection methods more expressively.
- *   Some would argue that there is a “performance hit” to that, however:
- *     1) Micro-optimization is the root of all evil; you should be measuring, then thinking, and
- *        optimizing only when needed. — Don’t optimize prematurely; readability is much more important.
- *     2) JavaScript engines are getting better and better to accommodate for these speed gaps.
- */
+// ## Lessons to Learn
+//
+// * Thinking functionally requires you to “slow down”.
+//
+// * Just because JavaScript is “composable” does not mean you should be composing
+//   everything and the kitchen sink into a humongous chain of expressions.
+//   Splitting your code into smaller sets of expressions and functions, and then composing them
+//   together as a larger expression will promote readability.
+//
+// * `reduce` is a powerful tool: You can do any kind of filtering and iteration with reduce.
+//   Again, there is a difference between “you can” and “you should” ;)
+//
+// * Show love to Array’s collection methods: `map`, `reduce`, `for … of`, and `forEach`.
+//   Whenver you are using a regular `for` loop, more often than not, you can do the same
+//   thing with one of these collection methods more expressively.
+//   Some would argue that there is a “performance hit” to that, however:
+//     1) Micro-optimization is the root of all evil; you should be measuring, then thinking, and
+//        optimizing only when needed. — Don’t optimize prematurely; readability is much more important.
+//     2) JavaScript engines are getting better and better to accommodate for these speed gaps.

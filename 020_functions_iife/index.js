@@ -38,12 +38,10 @@ separator();
 
 separator();
 
-/*
- * ## Lessons to Learn
- *
- * Instead of IIFEs, prefer using modules and block-level scoping with `const` and `let`.
- *
- * Prefer using CommonJS (i.e. Node.JS-style) for your code; you can always use
- * tools like webpack, grunt, browserify, gulp… etc. to bundle them into a code that
- * the browser can understand.
- */
+// ## Lessons to Learn
+//
+// Instead of IIFEs, prefer using modules and block-level scoping with `const` and `let`.
+//
+// Prefer using CommonJS (i.e. Node.JS-style) for your code; you can always use
+// tools like webpack, grunt, browserify, gulp… etc. to bundle them into a code that
+// the browser can understand.

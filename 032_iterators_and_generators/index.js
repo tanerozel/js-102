@@ -20,10 +20,8 @@ const util = require( '../lib/util' );
 const separator = util.separator;
 const log = console.log;
 
-/*
- * A generator is a function that returns an object that implements the iteration protocol.
- * That is to say; it has a `next()` method that returns a `{ value, done }` result.
- */
+// A generator is a function that returns an object that implements the iteration protocol.
+// That is to say; it has a `next()` method that returns a `{ value, done }` result.
 
 {
     separator();

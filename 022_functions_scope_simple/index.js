@@ -20,10 +20,8 @@ const util = require( '../lib/util' );
 const separator = util.separator;
 const log = console.log;
 
-/*
- * Unless you are using `let` or `const`, there is only a single scope in JavaScript
- * and that is the “function scope”.
- */
+// Unless you are using `let` or `const`, there is only a single scope in JavaScript
+// and that is the “function scope”.
 
 separator();
 
@@ -105,14 +103,12 @@ const fasterFibonacci = memoize( fibonacci );
 
 separator();
 
-/*
- * ## Lessons to Learn
- *
- * Do not attempt to user your variables before they are declared
- * (using `const` and `let` will already take care of that).
- *
- * Due to “hoisting”, declaring your variables at the top of the execution scope
- * used to be a “best practice”; however, with the introduction of `const` and `let`
- * keywords, a better practice has been to declare your variables closer to the place
- * that you are planning to use them.
- */
+// ## Lessons to Learn
+//
+// Do not attempt to user your variables before they are declared
+// (using `const` and `let` will already take care of that).
+//
+// Due to “hoisting”, declaring your variables at the top of the execution scope
+// used to be a “best practice”; however, with the introduction of `const` and `let`
+// keywords, a better practice has been to declare your variables closer to the place
+// that you are planning to use them.

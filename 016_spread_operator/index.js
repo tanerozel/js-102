@@ -32,21 +32,20 @@ const numbers = [ 1, 2, 3, 4 ];
 check( Math.max( ...numbers ) === 4, 'Max is 4.' );
 check( Math.min( ...numbers ) === 1, 'Min is 1.' );
 
-/*
- * Object Spread:
- *
- *      const obj = { life: 42, bombs: 11 };
- *
- *      log( obj );
- *
- *      log( {
- *          ...obj,
- *          weapon: 'ninja stars'
- *      } );
- *
- * Currently the object spread operator only works when you install a shim.
- * It is a “Stage 3 Proposal” right now (as of 2016)
- * See <https://github.com/sebmarkbage/ecmascript-rest-spread> for details.
- */
+// Object Spread:
+//
+//      const obj = { life: 42, bombs: 11 };
+//
+//      log( obj );
+//
+//      log( {
+//          ...obj,
+//          weapon: 'ninja stars'
+//      } );
+//
+// Currently the object spread operator only works when you install a shim.
+// It is a “Stage 3 Proposal” right now (as of 2016)
+// See <https://github.com/sebmarkbage/ecmascript-rest-spread> for details.
+//
 
 separator();

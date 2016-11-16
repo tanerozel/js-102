@@ -36,12 +36,10 @@ check( +'10' === 10, 'Converted `"10"` to `10`.');
 
 separator();
 
-/*
- * ## Lessons to Learn
- *
- * Always use radix when parsing numbers.
- *
- * Although the unary `+` operator (trick) looks cool, it is less readable
- * than explicitly using `parseInt(…, 10)`.
- * Prefer being explicit over being terse and “magical” whenver you can.
- */
+// ## Lessons to Learn
+//
+// Always use radix when parsing numbers.
+//
+// Although the unary `+` operator (trick) looks cool, it is less readable
+// than explicitly using `parseInt(…, 10)`.
+// Prefer being explicit over being terse and “magical” whenver you can.

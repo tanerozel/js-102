@@ -48,17 +48,15 @@ const log = console.log;
 
 const curry = ( fn ) => ( ...args ) => fn.bind( null, ...args );
 
-/*
- * `curry` takes a function `fn` and returns a “higher-order function”(*)
- * that returns a “partially-applied”(**) version of `fn`, when (the returned function by `curry`) is called.
- *
- * (*) A “higher-order function” is just a nerdy way of saying “a function that returns another function”.
- * (**) You need to call a partially-applied function with the remaining set of arguments to fully evaluate it.
- *
- * In certain functional languages (like Haskell), currying is not a big deal because functions are
- * curried by default; however, you should use the `curry` helper in JavaScript if you want to make
- * a function behave that way.
- */
+// `curry` takes a function `fn` and returns a “higher-order function”(*)
+// that returns a “partially-applied”(**) version of `fn`, when (the returned function by `curry`) is called.
+//
+// (*) A “higher-order function” is just a nerdy way of saying “a function that returns another function”.
+// (**) You need to call a partially-applied function with the remaining set of arguments to fully evaluate it.
+//
+// In certain functional languages (like Haskell), currying is not a big deal because functions are
+// curried by default; however, you should use the `curry` helper in JavaScript if you want to make
+// a function behave that way.
 
 {
     const sum = ( a, b, c, d ) => a + b + c + d;

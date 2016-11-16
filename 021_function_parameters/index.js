@@ -47,11 +47,9 @@ check( compute( 1, 2, ...[ 'hello' ], ...[ 'true', 'false' ], 7 ) === 12, 'Compu
 
 separator();
 
-/*
- * ## Lessons to Learn
- *
- * * The `...` rest operator; and `...[]` array spread operator; and default arguments
- *   are really useful language constructs.
- *
- * * Prefer fat arrows ( `=>` ) to `function` declarations whenever possible.
- */
+// ## Lessons to Learn
+//
+// * The `...` rest operator; and `...[]` array spread operator; and default arguments
+//   are really useful language constructs.
+//
+// * Prefer fat arrows ( `=>` ) to `function` declarations whenever possible.

@@ -54,12 +54,10 @@ log( Hello.sayHelloAll() );
 
 separator();
 
-/*
- * ## Lessons to Learn
- *
- * * To reiterate the former section: Don’t go bananas about using classes and inheritance.
- *
- * * The `class` keyword is just prototypal inheritance in disguise; it is just syntactic sugar.
- *
- * * If you are thinking in classes go learn Haskell, and then come back and revisit these examples.
- */
+// ## Lessons to Learn
+//
+// * To reiterate the former section: Don’t go bananas about using classes and inheritance.
+//
+// * The `class` keyword is just prototypal inheritance in disguise; it is just syntactic sugar.
+//
+// * If you are thinking in classes go learn Haskell, and then come back and revisit these examples.
