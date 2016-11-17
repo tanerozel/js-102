@@ -23,6 +23,10 @@ const log = console.log;
 
 separator();
 
+function foo() {
+    var args = Array.prototype.slice.call(arguments);
+}
+
 const compute = ( x, y, ...a ) => ( x + y ) * a.length;
 
 check( compute( 1, 2, 'hello', true, 7 ) === 9, 'Computed stuff.' );

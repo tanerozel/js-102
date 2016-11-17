@@ -122,7 +122,7 @@ separator();
 // Replacing a switch/case with a hashmap (or a more compex object tree) goes by many names:
 //
 // * Inversion of Control
-//   (instead of switchin on the color to do stuff, we are taking a mapping of delegates
+//   (instead of switching on the color to do stuff, we are taking a mapping of delegates
 //   and passing a color constant to locate the correct delegate to do stuff.
 //   This is like using a factory function. Hence we are inverting the flow of things;
 //   hence the name “inversion of control”.

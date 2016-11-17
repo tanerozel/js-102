@@ -44,7 +44,7 @@ context.compute = computeWithContext;
 
 log( context.compute( 3, 4 ) );
 log( computeWithContext.call( context, 3, 4 ) );
-log( computeWithContext.apply( context, [3, 4 ] ) );
+log( computeWithContext.apply( context, [ 3, 4 ] ) );
 
 separator();
 

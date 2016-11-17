@@ -19,7 +19,6 @@
 const util = require( '../lib/util' );
 const separator = util.separator;
 const check = util.check;
-const log = console.log;
 
 separator();
 

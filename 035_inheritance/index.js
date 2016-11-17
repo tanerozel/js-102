@@ -99,6 +99,8 @@ separator();
 
 log( 'Calling functions of nail:' );
 
+// __proto__
+
 nail.protoFunction();
 nail.memberFunction();
 

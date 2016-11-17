@@ -73,7 +73,7 @@ const phaseTwo = () => {
             return;
         }
 
-        setImmediate( check );
+        setImmediate( check );// setTimeout(fn, 0);
     };
 
     check();
@@ -96,6 +96,7 @@ const phaseThree = () => {
         promises.push( promise( i ) );
     }
 
+    // Promise.race
     Promise.all( promises ).then( () => phaseFour() );
 };
 
