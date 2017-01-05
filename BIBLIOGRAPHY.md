@@ -18,8 +18,8 @@ Here are a bunch of websites that might be handy.
 
 I **strongly recommend** you **avoid it** at all costs. Even StackOverflow is a better resource than that, trust me! 
 
-That is my personal (and honest) opinion; there are **much** better resources than w3school. Your mileage may vary, of course.
+That is my personal (and honest) opinion; there are **much** better resources than w3schools. Your mileage may vary, of course.
 
-Consuming w3schools is like living on candies instead of a proper balanced diet.
+> Consuming w3schools is like living on candies instead of a proper balanced diet.
 
 ’Nuf said.
