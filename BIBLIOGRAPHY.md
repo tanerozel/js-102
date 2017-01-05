@@ -1,4 +1,10 @@
-TODO:// I’ve copied some examples from various sources; I’ll mention them here.
+I have given references to related sites and further reading material inside the source code, thus I’m not maintaining a separate list here (•that might change if/when I decide to convert this repository into a book maybe*)
+
+I love to give credits when it is due.
+
+If I’ve forgotten to give citation or attribution to a particular resource, [just let shoot me an email](mailto:me@volkan.io) and I’ll fix it right away.
+
+---
 
 Here are some other reference links, that might be handy by the way:
 
