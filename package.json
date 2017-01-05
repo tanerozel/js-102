@@ -1,0 +1,36 @@
+{
+  "name": "js-102",
+  "version": "0.5.0",
+  "description": "JS-102 helps you learn JavaScript (the right way) so that you can confidently use higher-level libraries and frameworks. — Let’s reveal the magic!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsbites/js-102.git"
+  },
+  "keywords": [
+    "javascript",
+    "learning",
+    "best",
+    "practices",
+    "information",
+    "tutorial",
+    "brain",
+    "meld",
+    "byte-sized",
+    "byte-sized",
+    "JavaScript"
+  ],
+  "author": "Volkan Özçelik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsbites/js-102/issues"
+  },
+  "homepage": "https://github.com/jsbites/js-102#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "rx": "4.1.0"
+  }
+}
