@@ -4,7 +4,7 @@ I love to give credits when it is due.
 
 If I’ve forgotten to give citation or attribution to a particular resource, [just let shoot me an email](mailto:me@volkan.io) and I’ll fix it right away.
 
-Also feel free to suggest additional resources and reference links by [sending me an email]((mailto:me@volkan.io).
+Also feel free to suggest additional resources and reference links by [sending me an email](mailto:me@volkan.io).
 
 Cheers,
 
