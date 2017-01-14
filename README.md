@@ -8,9 +8,31 @@
     `-----'  `-----'          `--'  `---'' `------'
 ```
 
-# JS-102
+## About This Repository
 
-This repository helps you learn JavaScript (the right way) so that you can confidently use higher-level libraries and frameworks. — Let’s reveal the magic!
+This repository is a part of the [Byte-Sized JavaScript VideoCasts][vidcast].
+
+```
+  _               __
+ |_)   _|_  _ __ (_  o _   _   _|
+ |_) \/ |_ (/_   __) | /_ (/__(_|
+     /        |  _.     _. (_   _ ._ o ._ _|_
+            \_| (_| \/ (_| __) (_ |  | |_) |_
+                                       |
+            »»  bytesized.tv  ««
+```
+
+## Byte-Sized What?!
+
+[Byte-Sized JavaScript][vidcast].
+
+It is a compilation of short (*around ten minutes*) monthly screencasts about **JavaScript** and related technologies.
+
+[vidcast]: https://bytesized.tv/ "ByteSized.TV"
+
+# About **JS-102**
+
+**JS-102** helps you learn JavaScript (the right way) so that you can confidently use higher-level libraries and frameworks. — Let’s reveal the magic!
 
 ## Why?
 
