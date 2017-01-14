@@ -1,4 +1,4 @@
-I have given references to related sites and further reading material inside the source code, thus I’m not maintaining a separate list here (•that might change if/when I decide to convert this repository into a book maybe*)
+I have given references to related sites and further reading material inside the source code, thus I’m not maintaining a separate list here (*that might change if/when I decide to convert this repository into a book maybe*)
 
 I love to give credits when it is due.
 
