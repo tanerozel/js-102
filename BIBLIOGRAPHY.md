@@ -1,4 +1,16 @@
-TODO:// I’ve copied some examples from various sources; I’ll mention them here.
+I have given references to related sites and further reading material inside the source code, thus I’m not maintaining a separate list here (•that might change if/when I decide to convert this repository into a book maybe*)
+
+I love to give credits when it is due.
+
+If I’ve forgotten to give citation or attribution to a particular resource, [just let shoot me an email](mailto:me@volkan.io) and I’ll fix it right away.
+
+Also feel free to suggest additional resources and reference links by [sending me an email](mailto:me@volkan.io).
+
+Cheers,
+
+Volkan.
+
+---
 
 Here are some other reference links, that might be handy by the way:
 
@@ -18,8 +30,8 @@ Here are a bunch of websites that might be handy.
 
 I **strongly recommend** you **avoid it** at all costs. Even StackOverflow is a better resource than that, trust me! 
 
-That is my personal (and honest) opinion; there are **much** better resources than w3school. Your mileage may vary, of course.
+That is my personal (and honest) opinion; there are **much** better resources than w3schools. Your mileage may vary, of course.
 
-Consuming w3schools is like living on candies instead of a proper balanced diet.
+> Consuming w3schools is like living on candies instead of a, proper, balanced diet.
 
 ’Nuf said.
