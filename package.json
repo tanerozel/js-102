@@ -1,6 +1,6 @@
 {
   "name": "js-102",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "JS-102 helps you learn JavaScript (the right way) so that you can confidently use higher-level libraries and frameworks. — Let’s reveal the magic!",
   "main": "index.js",
   "scripts": {
