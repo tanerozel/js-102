@@ -46,6 +46,10 @@ This repository is logically split into folders, where each folder is related to
 
 First and foremost, make sure you **read the source, Luke**; there are useful tips, reference links, and further discussion in the source code. — So read the source code as if it was a book.
 
+> [You might also want to look at the bibliography](BIBLIOGRAPHY.md) where I gather useful references that might help sharpen your JavaScript katana even further.
+>
+> Also, if you have any suggestions to add there [please send me an email](mailto:me@volkan.io), or [file an issue here](https://github.com/jsbites/js-102/issues/new).
+
 To run any example, just `cd` into its folder and run the scripts using node.
 
 Here’s an example.
