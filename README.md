@@ -28,3 +28,66 @@ A recent version of Node.JS runtime (v.7+ recommended).
 
 We won’t be using any transpilers and we will be limiting the content to pure JavaScript.
 
+## Installation
+
+Although the majority of the examples in this repository are written in plain JavaScript, some examples include external dependencies to discuss certain programming patterns (*like, Reactive Functional Programming, for example*).
+
+To install the dependencies, fork or clone this repository and just run…
+
+```bash
+npm install
+```
+
+…at the project root.
+
+## Typical Usage
+
+This repository is logically split into folders, where each folder is related to a specific topic.
+
+First and foremost, make sure you **read the source, Luke**; there are useful tips, reference links, and further discussion in the source code. — So read the source code as if it was a book.
+
+To run any example, just `cd` into its folder and run the scripts using node.
+
+Here’s an example.
+
+```text
+$ cd 001_modules/
+$ ls
+index.js
+$ node index.js
+
+-.–.—.-.–.—.-.–.—.-.–.—
+
+`true` is truthy.
+
+-.–.—.-.–.—.-.–.—.-.–.—
+
+$
+```
+
+## Wanna Help?
+
+Any help is more than appreciated.
+
+If you want to contribute to the source code, **fork this repository** and **create a pull request**.
+
+> In lieu of a formal style guide, take care to maintain the existing coding style.
+
+Also, don’t forget to add unit tests for any new or changed functionality.
+
+If you want to report a bug; or share a comment or suggestion, [file an issue](https://github.com/jsbites/js-102/issues/new).
+
+## I’ve Found a Bug; I Have an Idea
+
+[For bug reports and suggestions, please file an issue](https://github.com/jsbites/js-102/issues/new).
+
+## Contact Information
+
+* **Project Maintainer**: [Volkan Özçelik](https://volkan.io/)
+* **Project Website**: <https://bytesized.tv/>
+
+## Code of Conduct
+
+We are committed to making participation in this project a harassment-free experience for everyone, regardless of the level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion, or nationality.
+
+[See the code of conduct for details](CODE_OF_CONDUCT.md).
