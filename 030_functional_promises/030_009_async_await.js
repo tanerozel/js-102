@@ -64,13 +64,11 @@ async function run() {
         log( 'Started first request…' );
 
         const firstResponse = await fetchUntilSuccess( 'https://bytesized.tv' );
-
         log( 'a', firstResponse );
 
         log( 'Started second request…' );
 
         const secondResponse = await fetchUntilSuccess( 'https://volkan.io' );
-
         log( 'b', secondResponse );
 
         log( 'Started third request…' );
