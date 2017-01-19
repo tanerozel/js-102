@@ -88,7 +88,7 @@ stream1
 // * http://reactivex.io/learnrx/
 // * https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 //
-// Since the overall concept of this repository is to teach JavaScript without depending
+// Since the main goal of this repository is to teach JavaScript without depending
 // on third-party frameworks, we’ll leave our “observation” of observables here.
 //
 // The subject of observables will be covered in much more detail
