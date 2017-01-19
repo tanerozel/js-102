@@ -83,3 +83,9 @@ const log = console.log;
 
     iterator.next();
 }
+
+// ## Notes
+//
+// Although generators provide a lower-level control over the async flow,
+// using asnyc/await, or Promises, or Observables will yield a much easier-to-read,
+// and easier-to-mananage code whith much less boilerplate.

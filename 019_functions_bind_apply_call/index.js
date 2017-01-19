@@ -68,6 +68,7 @@ separator();
 // var new_array = arr.map(callback[, thisArg])
 // map :: callback.call( thisArg, element, index, array )
 // callback ===> Number.call [[ Number.call(Number, 42) ]] ==> Number.call.call(Number, Number, 42)
+// Number.call.call( Number, undefined, 0, [])
 log( Array.apply( null, { length: 10 } ).map( Number.call, Number ) );
 
 separator();

@@ -105,7 +105,7 @@ separator();
 
 // ## Lessons to Learn
 //
-// Do not attempt to user your variables before they are declared
+// Do not attempt to use your variables before they are declared
 // (using `const` and `let` will already take care of that).
 //
 // Due to “hoisting”, declaring your variables at the top of the execution scope
