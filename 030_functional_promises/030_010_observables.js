@@ -74,8 +74,12 @@ stream1
         ( x ) => log( 'All done!' )
     );
 
-// Functional Reactive Programming is a vast topic that will require an entire series
-// of episodes to be covered properly.
+// ## Notes
+//
+// The concept of observables is a much deeper topic in itself; and
+// this file is designed to give just a quick sneak peek of how the observable API
+// feels like. — Functional Reactive Programming is a vast topic that will require
+// an entire series of episodes to cover it properly.
 //
 // If you are new to the concept, you can get a feeling of what it is, and how it
 // makes state management of asyncronous streams easier see:
@@ -83,3 +87,14 @@ stream1
 // * https://github.com/Reactive-Extensions/RxJS
 // * http://reactivex.io/learnrx/
 // * https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+//
+// Since the overall concept of this repository is to teach JavaScript without depending
+// on third-party frameworks, we’ll leave our “observation” of observables here.
+//
+// The subject of observables will be covered in much more detail
+// in the future episodes of bytesized.tv .
+//
+// For the functionalistas out there: You might be thinkign that observables are like
+// a special kind of Monad; and you are totally right in that sense. — We’ll hopefully
+// talk about Monads, Functors, Applicatives, and their impact on modern JavaScript
+// in the upcoming episodes of bytesized.tv .
